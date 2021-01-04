@@ -1,0 +1,21 @@
+.sidebar{
+    grid-area: sidebar;
+    height: calc(100vh - 5rem - 3.125rem);
+    padding: 3rem 0 ;
+    box-sizing: border-box;
+  }
+  .sidebar ul{
+    list-style-type:none;
+    padding: 0px;
+    height: 25rem;
+    margin-top: 0;
+  }
+  .sidebar li{
+    margin-bottom: 1.5rem;
+  }
+  .sidebar a{
+    text-decoration: none;
+  }
+  .sidebar hr{
+    width: 80%;
+  }

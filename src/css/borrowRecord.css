@@ -1,0 +1,35 @@
+.borrowRecord-content{
+    padding: 4rem 6rem 0 6rem;
+    height: calc(100vh - 5rem - 3.125rem);
+    box-sizing: border-box;
+}
+.borrowRecord-content .item-name{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.borrowRecord-content .line{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.borrowRecord-content .mainContent{
+    padding: 3rem 0 0 3rem;
+    box-sizing: border-box;
+}
+
+.borrowRecord-content .mainContent table{
+    width: 100%;
+    text-align: left;
+    table-layout: auto;
+}
+.borrowRecord-content .mainContent table th{
+    padding-bottom: 1.5rem;
+}
+.borrowRecord-content .mainContent table td{
+    vertical-align:top;
+    padding: 1rem 0;
+}
+.borrowRecord-content .mainContent table td:nth-child(3){
+    width: 20rem;
+}
+

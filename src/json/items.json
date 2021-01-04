@@ -1,0 +1,57 @@
+[{
+    "_id": "1",
+    "image": "./images/E811.jpg",
+    "name": "E811 鑰匙",
+    "type":"key",
+    "lended":true
+ },
+ {
+    "_id": "2",
+    "image": "./images/E812.jpg",
+    "name": "E812 鑰匙",
+    "type":"key",
+    "lended":false
+ },
+ {
+    "_id": "3",
+    "image": "./images/extensionCord.jpg",
+    "name": "延長線",
+    "type":"equipment",
+    "lended":true
+ },
+ {
+    "_id": "4",
+    "image": "./images/adapter.jpg",
+    "name": "轉接頭",
+    "type":"equipment",
+    "lended":false
+ },
+ {
+    "_id": "5",
+    "image": "./images/screen.jpg",
+    "name": "投影幕",
+    "type":"equipment",
+    "lended":false
+ },
+ {
+    "_id": "6",
+    "image": "./images/camera.jpeg",
+    "name": "攝影機",
+    "type":"equipment",
+    "lended":true
+ },
+ {
+    "_id": "7",
+    "image": "./images/soundbox.jpeg",
+    "name": "行動音響",
+    "type":"equipment",
+    "lended":false
+ },
+ {
+    "_id": "8",
+    "image": "./images/telecamera.jpg",
+    "name": "實物投影機",
+    "type":"equipment",
+    "lended":true
+ }
+]

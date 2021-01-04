@@ -1,0 +1,157 @@
+.borrowContent{
+  padding: 4rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.borrowContent .largePhoto{
+  width: 23rem;
+  height: 17.25rem;
+}
+.borrowContent .largePhoto img{
+  width: 100%;
+  height: 100%;
+}
+.borrowContent .threeSmallPhoto{
+  width: 23rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.borrowContent .smallPhoto{
+  width: 6rem;
+  height: 4.5rem;
+}
+.borrowContent .smallPhoto img{
+  width: 100%;
+  height: 100%;
+}
+.borrowContent .detailArea{
+  width: 38rem;
+}
+.borrowContent .descriptionArea .item-name,.borrowContent .reserved_area .item-name{
+  font-size: 1.5rem;
+}
+.borrowContent .descriptionArea .line,.borrowContent .reserved_area .line{
+  border-bottom: 1px solid #000;
+  margin: 1rem 0;
+}
+.borrowContent .descriptionArea .rule{
+  margin-bottom: 3rem;
+}
+.borrowContent .descriptionArea .rule p{
+  line-height: 2rem;
+}
+.borrowContent .reserved_area .reserved_form{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2rem;
+}
+.borrowContent .reserved_form .reserved_row{
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
+  padding-bottom: 2rem;
+}
+.borrowContent .reserved_form .reserved_row .reserved_input{
+  background-color: #fcfcfc;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  height: 1rem;
+  width: 20rem;
+  padding: 0.25rem;
+}
+.borrowContent .reserved_form .reserved_row .reserved_input:focus{
+  background-color: #fff;
+  border: 1px solid #2B3240;
+}
+.borrowContent .reserved_form .reserved_label{
+  width: 8rem;
+}
+.borrowContent .reserved_form .reason_option{
+  display: flex;
+  flex-flow: column;
+}
+.borrowContent .reserved_form .reason_option label{
+  padding-bottom: 1rem;
+}
+.borrowContent .reserved_form .reason_option label input{ 
+  margin-right: 1rem;
+}
+.borrowContent .calendarArea{
+  width: 38rem;
+  height: 329px;
+  border: 1px solid #000;
+  margin: 1rem 0 2rem 0;
+}
+.borrowContent .btnArea{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Calendar */
+
+.borrowContent .calendarArea .container-calendar {
+  width: 100%;
+}
+
+.borrowContent .calendarArea .button-container-calendar {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.borrowContent .calendarArea #monthHeader {
+  margin: 0;
+  padding: 5px;
+  font-size: 14pt;
+  color: #2B3240;
+}
+
+.borrowContent .calendarArea .table-calendar {
+  width: 100%;
+}
+
+.borrowContent .calendarArea .table-calendar th{
+  font-size: 12px;
+  text-align: center;
+  color: #435A7D;
+}
+
+.borrowContent .calendarArea .table-calendar td{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  color: #2B3240;
+}
+
+.borrowContent .calendarArea .date-picker {
+  cursor: pointer;
+}
+
+.borrowContent .calendarArea .date-picker.selected{
+  background-image: url(../selectedBG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.borrowContent .calendarArea .date-picker.selected span {
+  color:white;
+}
+
+/* .borrowContent .calendarArea .date-picker:nth-child(1),.borrowContent .calendarArea .date-picker:nth-child(7), .gray-text {
+  color: #CBCBCB;
+} */
+
+.borrowContent .calendarArea .date-picker.gray-text {
+  color: #CBCBCB;
+}
+
+.borrowContent .calendarArea #date-picked {
+  text-align: center;
+  color: #999;
+  padding-top: 15px;
+  font-size: 11pt;
+  font-weight: bold;
+}

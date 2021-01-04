@@ -1,0 +1,170 @@
+.editContent{
+  padding: 4rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.editContent .photoArea .deleteBtn{
+  position: absolute;
+  margin-left: 22.2rem;
+  margin-top: -0.8rem;
+}
+.editContent .largePhoto{
+  width: 23rem;
+  height: 17.25rem;
+}
+.editContent .largePhoto img{
+  width: 100%;
+  height: 100%;
+}
+.editContent .threeSmallPhoto{
+  width: 23rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.editContent .smallPhoto{
+  width: 6rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.editContent .smallPhoto img{
+  width: 100%;
+  height: 100%;
+}
+.editContent .descriptionArea .item-name-input{
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: #fcfcfc;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  padding: 0.625rem 0 0.625rem 1rem;
+  box-sizing: border-box;
+}
+.editContent .descriptionArea .item-name-input:focus{
+  background-color: #fff;
+  border: 1px solid #2B3240;
+}
+.editContent .descriptionArea .line{
+  border-bottom: 1px solid #000;
+  margin: 1rem 0;
+}
+.editContent .descriptionArea .rule{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.editContent .descriptionArea .rule textarea{
+  width: 38rem;
+  height: 7rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  background-color: #fcfcfc;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.625rem 0 0 1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+.editContent .descriptionArea .rule textarea:focus{
+  background-color: #fff;
+  border: 1px solid #2B3240;
+}
+.editContent .calendarArea{
+  width: 38rem;
+  height: 329px;
+  border: 1px solid #000;
+  margin-bottom: 2rem;
+}
+.editContent .btnArea{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+/* Calendar */
+
+.editContent .calendarArea .container-calendar {
+width: 100%;
+}
+
+.editContent .calendarArea .button-container-calendar {
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.editContent .calendarArea #monthHeader {
+margin: 0;
+padding: 5px;
+font-size: 14pt;
+color: #2B3240;
+}
+
+.editContent .calendarArea .table-calendar {
+width: 100%;
+}
+
+.editContent .calendarArea .table-calendar th{
+font-size: 12px;
+text-align: center;
+color: #435A7D;
+}
+
+.editContent .calendarArea .table-calendar td{
+font-size: 14px;
+text-align: center;
+padding: 10px;
+color: #2B3240;
+}
+
+.editContent .calendarArea .date-picker {
+cursor: pointer;
+}
+
+.editContent .calendarArea .date-picker.selected span {
+color: #CBCBCB;
+}
+
+/* .editContent .calendarArea .date-picker:nth-child(1),.editContent .calendarArea .date-picker:nth-child(7), .gray-text {
+color: #CBCBCB;
+} */
+
+.editContent .calendarArea #date-picked {
+text-align: center;
+color: #999;
+padding-top: 15px;
+font-size: 11pt;
+font-weight: bold;
+}
+
+/* 顯示學生已預約的日期 */
+/* .editContent .calendarArea .reserved_date{
+background-image: url(../selectedBG.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.editContent .calendarArea .reserved_date span {
+color: #CBCBCB;
+} */
+
+.editContent  .calendarArea .date-picker.cantSelected{
+background-image: url(../selectedBG.png);
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.editContent  .calendarArea .date-picker.cantSelected span {
+color:white;
+}
+
+.editContent  .calendarArea .date-picker.gray-text {
+color: #CBCBCB;
+}

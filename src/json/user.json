@@ -1,0 +1,26 @@
+[{
+   "name": "郭昀甄",
+   "number": "110934002",
+   "password": "0000",
+   "identity":"student"
+},
+{
+   "name": "史欣悅",
+   "number": "12345",
+   "password": "0000",
+   "identity":"teacher"
+},
+{
+   "name": "車銀優",
+   "number": "111",
+   "password": "111",
+   "identity":"teacher"
+},
+{
+    "name": "車永裴",
+    "number": "222",
+    "password": "222",
+    "identity":"student"
+ }
+
+]

@@ -1,0 +1,140 @@
+.add-content{
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.add-content .photoArea{
+    width: 23rem;
+    height: 17.25rem;
+    border: 1px dashed #b4b4b4;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.add-content .photoArea .plusBtn{
+    margin-right: 1rem;
+}
+.add-content .descriptionArea .item-name-input{
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #fcfcfc;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    padding: 0.625rem 0 0.625rem 1rem;
+    box-sizing: border-box;
+}
+.add-content .descriptionArea .item-name-input:focus{
+    background-color: #fff;
+    border: 1px solid #2B3240;
+}
+.add-content .descriptionArea .line{
+    border-bottom: 1px solid #000;
+    margin: 1rem 0;
+}
+.add-content .descriptionArea .rule{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.add-content .descriptionArea .rule textarea{
+    width: 38rem;
+    height: 7rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    background-color: #fcfcfc;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.625rem 0 0 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+.add-content .descriptionArea .rule textarea:focus{
+    background-color: #fff;
+    border: 1px solid #2B3240;
+}
+.add-content .calendarArea{
+    width: 38rem;
+    height: 329px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+}
+.add-content .btnArea{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+}
+
+
+/* Calendar */
+
+.add-content .calendarArea .container-calendar {
+  width: 100%;
+}
+
+.add-content .calendarArea .button-container-calendar {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.add-content .calendarArea #monthHeader {
+  margin: 0;
+  padding: 5px;
+  font-size: 14pt;
+  color: #2B3240;
+}
+
+.add-content .calendarArea .table-calendar {
+  width: 100%;
+}
+
+.add-content .calendarArea .table-calendar th{
+  font-size: 12px;
+  text-align: center;
+  color: #435A7D;
+}
+
+.add-content .calendarArea .table-calendar td{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  color: #2B3240;
+}
+
+.add-content .calendarArea .date-picker {
+  cursor: pointer;
+}
+
+/* .add-content .calendarArea .date-picker.selected{
+  background-image: url(../selectedBG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
+
+.add-content .calendarArea .date-picker.selected span {
+  /* color:white; */
+  color: #CBCBCB;
+}
+
+.add-content .calendarArea .date-picker.gray-text {
+  color: #CBCBCB;
+}
+
+/* .add-content .calendarArea .date-picker:nth-child(1),.add-content .calendarArea .date-picker:nth-child(7), .gray-text {
+  color: #CBCBCB;
+} */
+
+.add-content .calendarArea #date-picked {
+  text-align: center;
+  color: #999;
+  padding-top: 15px;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
